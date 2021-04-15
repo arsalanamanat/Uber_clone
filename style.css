@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Header Area Starts Here  */
+
+#nav-mobile li:hover {
+  background-color: rgb(151, 150, 150);
+}
+
+.slider {
+  z-index: 0;
+}
+.header-section-card {
+  position: absolute;
+  top: 80px;
+  right: 30px;
+  z-index: 1;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+/* Modal Structure */
+
+.sign-up {
+  max-width: 600px;
+  margin: 40px 50px;
+}
+
+.modal-footer {
+  margin-top: 30px;
+}
+
+/* Download App Container Start Here */
+
+.download-our-app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.download-our-app-image {
+  max-width: calc(50%-10px);
+  margin-right: 20px;
+}
+.download-our-app-text {
+  max-width: calc(50%-10px);
+}
+
+/* Uber Eat Container Starts Here */
+.uber-eats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.uber-eats-img img {
+  width: 70%;
+}
+
+.uber-eats-search {
+  width: 50%;
+}
+#mySearch {
+  border-top: grey solid 1px;
+  background: rgb(75, 75, 75);
+  width: 90%;
+  padding: 0px 15px;
+}
+
+/* Uber eat Services Container Starts Here */
+
+.uber-eat-services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  margin: 0px auto;
+}
+
+.uber-eat-services-items {
+  width: calc((100% - 4rem) / 3);
+  margin-right: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.8s ease-in-out;
+}
+
+.uber-eat-services-items:hover {
+  box-shadow: 0px 0px 2px 2px black;
+  transform: scale(0.9);
+}
+.uber-eat-services-items h4 {
+  font-weight: bold;
+  color: rgb(44, 43, 43);
+}
+
+/* on demand delivery starts here */
+
+.card-image img {
+  height: 300px;
+}
+.on-demand-delivery .card-title {
+  filter: opacity(0.7);
+  border-radius: 1px;
+}
+
+.on-demand-delivery .card {
+  cursor: pointer;
+  transition: 0.8s ease-in-out;
+}
+
+.on-demand-delivery .card:hover {
+  box-shadow: 0px 0px 2px 2px grey;
+  transform: scale(1.05);
+}
+
+.side-contain {
+  margin: 0 auto;
+  width: 90%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  clear: both;
+}
+/* for footer area */
+
+.page-footer {
+  height: 300px;
+  padding: 0px;
+}
+
+/*
+///////////////////////////////
+///// ///Mobile View //////////
+//////////////////////////////
+*/
+
+@media only screen and (max-width: 600px) {
+  .header-section-card {
+    position: Relative;
+    top: 0px;
+    left: 0px;
+  }
+
+  .uber-eat-services-items {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .safety-is-important {
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+  }
+  .safety-content {
+    margin-bottom: 30px;
+  }
+  .page-footer {
+    text-align: center;
+  }
+}
+
+/*
+///////////////////////////////
+/////Tablet & Desktop View ////
+//////////////////////////////
+*/
+
+@media only screen and (max-width: 993px) {
+  .header-section-card {
+    position: Relative;
+    top: 0px;
+    left: 0px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .safety-is-important {
+    margin: 50px;
+  }
+
+  .safety-is-important col {
+    justify-content: center;
+  }
+
+  .page-footer {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .side-contain {
+    width: 30%;
+    float: right;
+    margin: 20px;
+  }
+
+  .safety-is-important {
+    margin: auto;
+    width: 80%;
+  }
+}
