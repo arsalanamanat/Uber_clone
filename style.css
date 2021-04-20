@@ -1,202 +1,315 @@
 * {
-  margin: 0;
-  padding: 0;
-}
-
-/* Navigation Header Area Starts Here  */
-
-#nav-mobile li:hover {
-  background-color: rgb(151, 150, 150);
-}
-
-.slider {
-  z-index: 0;
-}
-.header-section-card {
-  position: absolute;
-  top: 80px;
-  right: 30px;
-  z-index: 1;
-  font-size: 1rem;
-  text-align: justify;
-}
-
-/* Modal Structure */
-
-.sign-up {
-  max-width: 600px;
-  margin: 40px 50px;
-}
-
-.modal-footer {
-  margin-top: 30px;
-}
-
-/* Download App Container Start Here */
-
-.download-our-app {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.download-our-app-image {
-  max-width: calc(50%-10px);
-  margin-right: 20px;
-}
-.download-our-app-text {
-  max-width: calc(50%-10px);
-}
-
-/* Uber Eat Container Starts Here */
-.uber-eats {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.uber-eats-img img {
-  width: 70%;
-}
-
-.uber-eats-search {
-  width: 50%;
-}
-#mySearch {
-  border-top: grey solid 1px;
-  background: rgb(75, 75, 75);
-  width: 90%;
-  padding: 0px 15px;
-}
-
-/* Uber eat Services Container Starts Here */
-
-.uber-eat-services {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 90%;
-  margin: 0px auto;
-}
-
-.uber-eat-services-items {
-  width: calc((100% - 4rem) / 3);
-  margin-right: 10px;
-  text-align: center;
-  cursor: pointer;
-  transition: 0.8s ease-in-out;
-}
-
-.uber-eat-services-items:hover {
-  box-shadow: 0px 0px 2px 2px black;
-  transform: scale(0.9);
-}
-.uber-eat-services-items h4 {
-  font-weight: bold;
-  color: rgb(44, 43, 43);
-}
-
-/* on demand delivery starts here */
-
-.card-image img {
-  height: 300px;
-}
-.on-demand-delivery .card-title {
-  filter: opacity(0.7);
-  border-radius: 1px;
-}
-
-.on-demand-delivery .card {
-  cursor: pointer;
-  transition: 0.8s ease-in-out;
-}
-
-.on-demand-delivery .card:hover {
-  box-shadow: 0px 0px 2px 2px grey;
-  transform: scale(1.05);
-}
-
-.side-contain {
-  margin: 0 auto;
-  width: 90%;
-  padding: 20px;
-  border-radius: 10px;
-}
-
-footer {
-  clear: both;
-}
-/* for footer area */
-
-.page-footer {
-  height: 300px;
+  font-family: sans-serif;
+  margin: 0px;
   padding: 0px;
 }
 
-/*
-///////////////////////////////
-///// ///Mobile View //////////
-//////////////////////////////
-*/
+.container {
+  width: 90% !important;
+}
 
-@media only screen and (max-width: 600px) {
-  .header-section-card {
-    position: Relative;
-    top: 0px;
-    left: 0px;
-  }
+h3 {
+  font-weight: 500;
+  font-size: 2.5rem;
+}
 
-  .uber-eat-services-items {
-    width: 100%;
-    margin-bottom: 20px;
-  }
+h4 {
+  font-weight: 500;
+  font-size: 2rem;
+  padding: 0 20px;
+}
 
-  .safety-is-important {
-    width: 90%;
-    margin: 50px auto;
-    text-align: center;
-  }
-  .safety-content {
-    margin-bottom: 30px;
-  }
-  .page-footer {
-    text-align: center;
+p {
+  font-size: 16px;
+}
+
+/* Fixed Navigation desktop area Area Starts Here  */
+nav {
+  line-height: 64px;
+}
+.brand-logo {
+  font-size: 1.8rem !important;
+  margin: 0px 80px;
+}
+
+.navbar ul {
+  margin-left: 70px;
+  font-size: 0.9rem !important;
+}
+
+.navbar ul a {
+  padding: 12px 12px;
+  display: initial;
+}
+
+#nav-mobile a:hover {
+  background-color: #333333;
+  border-radius: 20px;
+}
+
+.navbar i {
+  margin: 0px 10px !important;
+  font-size: 18px !important;
+  line-height: 65px !important;
+}
+
+.signup {
+  background-color: #666565;
+  border-radius: 20px;
+}
+
+/* Drop Down Starts Here */
+
+#dropdown1 {
+  width: 300px !important;
+  position: absolute;
+}
+
+.drop-down-menu {
+  background-color: red;
+}
+
+#dropdown1 a {
+  color: rgb(48, 47, 47);
+  font-size: 0.9rem;
+}
+
+/* Header Card Starts Here */
+
+.card {
+  position: absolute;
+  top: 150px;
+  left: 150px;
+  width: 600px;
+}
+
+.col .row {
+  margin: 0px !important;
+}
+
+.tabs {
+  height: 100px;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.tab img {
+  margin-top: 10px;
+  max-width: 50%;
+}
+
+.sign-up-to-drive {
+  margin-top: 30px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  text-transform: none;
+}
+
+.card-info {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+.header-image {
+  line-height: 0px;
+  margin: 0px;
+}
+.header-image img {
+  width: 100%;
+  margin: 0px;
+  line-height: 0px;
+}
+
+/* sky line start here */
+
+.skyline-data {
+  margin: 0px;
+  line-height: 0px !important;
+  position: relative;
+}
+
+.skyline-data img {
+  width: 100%;
+  height: 300px;
+}
+
+.skyline-content {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
+
+.skyline-data p {
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+
+/* Focused on Safety Section */
+.safety-heading {
+  margin-left: 180px;
+  padding: 0px;
+  font-weight: bold;
+}
+.focused-on-safety {
+  display: flex;
+  flex-wrap: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.safety-content {
+  width: 50%;
+}
+
+.cities-in-motion {
+  width: 50%;
+}
+
+.focused-on-safety img {
+  max-width: 100%;
+}
+
+.focused-on-safety a {
+  text-decoration: underline;
+  text-underline-position: under;
+  font-size: 1.1rem;
+}
+
+.focused-on-safety p {
+  margin-bottom: 40px;
+}
+
+/* about us news and global citizenship start here*/
+
+.About-us-news-global-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.items {
+  width: 33%;
+}
+
+.items p {
+  margin-bottom: 30px;
+}
+
+.About-us-news-global-wrapper a {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+/* there's more to love in app start here */
+.app-section h3 {
+  margin-left: 160px;
+}
+
+.app-section-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+.app-section-items {
+  display: flex;
+  align-items: center;
+  width: 48%;
+  margin-right: 20px;
+  border: 1px solid rgb(204, 201, 201);
+  padding: 0px;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.app-section-items h5 {
+  margin-right: 90px;
+}
+
+.app-section-items a:hover {
+  background-color: pink;
+}
+
+.app-section-items img {
+  width: 30%;
+  padding: 10px 10px;
+}
+
+/* Sign Up Section Start Here */
+
+.sign-up-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.sign-up-items {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  width: 49%;
+  margin-right: 10px;
+}
+
+.sign-up-items h3 {
+  margin-right: 260px;
+}
+
+.sign-up-items i {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* footer start here */
+
+.page-footer h4 {
+  margin: 80px 0px;
+  padding: 0px;
+}
+
+.page-footer h5 {
+  margin-top: 50px;
+}
+
+.page-footer li {
+  line-height: 2.5rem;
+}
+
+.footer-copyright a {
+  margin-right: 40px;
+}
+
+.footer-copyright i {
+  margin-right: 20px;
+}
+
+.footer-copyright img {
+  width: 30%;
+}
+
+/* Media Screen Under 600px */
+
+@media only screen and (max-width: 992px) {
+  nav .brand-logo {
+    left: 5%;
   }
 }
 
-/*
-///////////////////////////////
-/////Tablet & Desktop View ////
-//////////////////////////////
-*/
-
-@media only screen and (max-width: 993px) {
-  .header-section-card {
-    position: Relative;
-    top: 0px;
-    left: 0px;
-  }
-}
+/* Media Screen between 600 and 1024 px */
 
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
-  .safety-is-important {
-    margin: 50px;
-  }
-
-  .safety-is-important col {
-    justify-content: center;
+  body {
+    background-color: red;
   }
 }
 
+/* Media Screen over 1024 px */
+
 @media only screen and (min-width: 1024px) {
-  .side-contain {
-    width: 30%;
-    float: right;
-    margin: 20px;
+  body {
   }
 
-  .safety-is-important {
-    margin: auto;
-    width: 80%;
+  .card {
   }
 }

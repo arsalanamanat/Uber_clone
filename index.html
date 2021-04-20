@@ -15,47 +15,50 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <!--Linked Personal Style Sheet-->
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>Earn Money by Driving or Get a Ride Now | Uber Netherlands</title>
 </head>
-
 <body>
   <header>
     <div class="navbar">
-      <!-- Dropdown Structure -->
-      <ul id='dropdown1' class='dropdown-content black'>
-        <li><a href="#!" class="white-text">About Us</a></li>
-        <li><a href="#!" class="white-text">What We Offer</a></li>
-        <li><a href="#!" class="white-text">How Uber Works</a></li>
-        <li><a href="#!" class="white-text">Global Citizenship</a></li>
-        <li><a href="#!" class="white-text">Newsroom</a></li>
-      </ul>
-
-      <ul id='dropdown2' class='dropdown-content black'>
-        <li><a href="#!" class="white-text">About Us</a></li>
-        <li><a href="#!" class="white-text">What We Offer</a></li>
-        <li><a href="#!" class="white-text">How Uber Works</a></li>
-        <li><a href="#!" class="white-text">Global Citizenship</a></li>
-        <li><a href="#!" class="white-text">Newsroom</a></li>
-      </ul>
-      <!-- navigation wrapper-->
-      <nav>
-        <div class="nav-wrapper grey black z-depth-2 fixed">
-          <div class="container">
-            <a href="#" class="brand-logo">Uber</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul id="nav-mobile" class=" hide-on-med-and-down right">
-              <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Company<i
-                    class="material-icons right">arrow_drop_down</i></a></li>
+          <!-- navigation wrapper-->
+      <nav class="nav-wrapper black fixed">
+        <a href="#" class="brand-logo">Uber</a>
+        
+        <div class="container">
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons right">menu</i></a>
+      <ul id="nav-mobile" class=" hide-on-med-and-down">
+                      <li><a class="dropdown-trigger" href="#" data-target="dropdown1">Company<i class="fas fa-angle-down"></i></a></li>
               <li><a href="#">Safety</a></li>
               <li><a href="#">Help</a></li>
-              <li><a href="#">Information</a></li>
-              <li><a href="#"><i class="material-icons left">login</i>Login</a></li>
-              <li><a href="#signup" class="modal-trigger"><i class="material-icons left">account_circle</i>Sign Up</a>
-              </li>
-            </ul>
-          </div>
+              <li><a href="#">COVID-19 Resources</a></li>
+               </ul>
+              <ul class="right ">
+                <li class=" hide-on-med-and-down"><a href="#" class="modal-trigger"><i class="material-icons white-text left ">language</i>EN</a>
+                </li>
+                <li class="hide-on-med-and-down"><a href="#" ><i class="material-icons white-text left">dialpad</i>Product</a>
+                </li>
+                <li class=" hide-on-med-and-down"><a href="#" ><i class ="far fa-user left"></i>login</a>
+                </li>
+                <li><a href="#signup" class="signup"><i class ="far fa-user left hide-on-large-only show-on-med-and-down"></i>Sign up</a>
+                </li>
+               </ul>
+               </div>
+                  </nav>
         </div>
-        <!-- side nav-->
+
+      <!-- Dropdown Structure -->
+      <div class="drop-down-menu">
+           <ul id='dropdown1' class='dropdown-content '>
+               <li><a href="#!">About Us</a></li>
+        <li><a href="#!">What We Offer</a></li>
+        <li><a href="#!">How Uber Works</a></li>
+        <li><a href="#!">Global Citizenship</a></li>
+        <li><a href="#!">Newsroom</a></li>
+      </ul>
+      </div>
+
+
+      <!-- side nav-->
         <ul class="sidenav" id="mobile-demo">
           <li><a href="#">Safety</a></li>
           <li><a href="#">Help</a></li>
@@ -99,311 +102,228 @@
       </nav>
   </header>
 
-  <!--modal structure start here-->
-  <div id="signup" class="modal modal-fixed-footer">
-    <div class="modal-content">
-      <h3 class="center-align">Sign Up</h3>
-      <p class="center-align">Please Fill in the Form to Sign up at Uber.Com</p>
-      <form action="" method="get" class="sign-up">
-        <div class="sign-up">
-          <label for="name">Enter your name: </label>
-          <input type="text" name="name" id="name" required>
-        </div>
-        <div class="sign-up">
-          <label for="email">Enter your email: </label>
-          <input type="email" name="email" id="email" required>
-        </div>
-        <div class="sign-up">
-          <label for="phone">Enter your cell: </label>
-          <input type="tel" name="phone" id="phone" required>
-        </div>
-        <div class="sign-up">
-          <input type="submit" value="Subscribe!" class="btn black">
-        </div>
-      </form>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-close waves-effect waves-green btn-flat red-text">Agree</a>
-    </div>
-  </div>
 
-  <!-- SLider Start Here-->
-  <section>
-    <div class="slider s12 ">
-      <ul class="slides">
-        <li>
-          <img src="./images/slider1.jpg">
-          <div class="caption left-align black-text grey lighten-4">
-            <h3>Feed Your Employees!</h3>
-            <h5 class="light black-text text-lighten-3 grey lighten-4">Create a Business Account</h5>
-          </div>
-        </li>
-        <li>
-          <img src="./images/slider2.jpg">
-          <div class="caption left-align black-text grey lighten-4">
-            <h3>Your Restaurant Delivery</h3>
-            <h5 class="light black-text text-lighten-3 grey lighten-4">Add Your Restaurant.</h5>
-          </div>
-        </li>
-        <li>
-          <img src="./images/slider3.jpg ">
-          <div class="caption left-align black-text grey lighten-4">
-            <h3>Delivery With Uber</h3>
-            <h5 class="light black-text text-lighten-3 grey lighten-4 ">Signup with us</h5>
-          </div>
-        </li>
-        <li>
-          <img src="./images/slider4.jpg">
-          <div class="caption left-align black-text grey lighten-4">
-            <h3>This is our big Tagline!</h3>
-            <h5 class="light black-text text-lighten-3 grey lighten-4">Here's our small slogan.</h5>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </section>
   <!-- Header Card Section Start here-->
-  <section>
-    <div class="header-section-card row">
-      <div class="col s12 l4 right">
-        <div class="card ">
-          <div class="card-content black white-text">
-            <h5 class="center-align">Welcome to Uber ! </h4>
-              <p>Good things happen when people can move, whether across town or toward their dreams.
-                Opportunities appear, open up, become reality.
-              </p>
-          </div>
-          <div class="card-tabs">
-            <ul class="tabs tabs-fixed-width grey darken-4 ">
-              <li class="tab"><a href="#rides" class="white-text">Rides</a></li>
-              <li class="tab"><a class="active white-text" href="#meal">Meal</a></li>
-              <li class="tab"><a href="#delivery" class="white-text">Delivery</a></li>
+      <section>
+        <div class="card">
+            <div class="card-tabs section">
+            <ul class="tabs tabs-fixed-width  row">
+              <li class="tab col s4"><img src="./images/signal.svg"><a href="#rides" class=" black-text">Drive or Delivery</a></li>
+              <li class="tab col s4"><img src="./images/restaurant-outlined.svg"><a class="active  black-text" href="#meal">Eat</a></li>
+              <li class="tab col s4"><img src="./images/signal.svg"><a href="#delivery" class=" black-text">Ride</a></li>
             </ul>
           </div>
-          <div class="card-content">
-            <div id="rides">
-              <h5>Rides</h5>Rides to and from the airport. Daily commute. A ride for customers. If you need transport
-              for work, you can request a ride in more than 10,000 cities worldwide.
-            </div>
-            <div id="meal">
-              <h5>Meals</h5>You can only really do a good job with a full stomach. Keep your teams motivated and feed
-              your guests with options from over 400,000 restaurant partners.
-            </div>
-            <div id="delivery">
-              <h5>Delivery</h5>For packages under 50kg, from retail orders to auto parts, with access to local same-day
-              delivery options, you'll reach your customers faster than ever.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Main body Starts From Here-->
-  <main>
-    <section>
-      <div class="download-our-app">
-        <div class="download-our-app-image">
-          <img src="./images/uber-app-download.png" class="responsive-img">
-        </div>
-        <div class="download-our-app-text center-align section">
-          <h3 class="section">Uber's Technology offering </h3>
-          <p class="section">Finding a new way for people to request rides and travel from A to B is just the beginning
-          </p>
-          <div class="btn black section">Download the app</div>
-        </div>
-      </div>
-    </section>
-    <!-- Uber  Container Eat Starts Here-->
-    <section>
-      <div class=" uber-eats container section center-align">
-        <div class="uber-eats-heading">
-          <h2 class="section "> Hungry ? You are in the Right Place</h2>
-        </div>
-        <div class="uber-eats-img">
-          <img src="./images/uber_eats.png">
-        </div>
-        <div clas="uber-eats-search">
-          <form role="search">
-            <label for="search ">
-              <h5><i class="material-icons">location_on</i> Enter You delivery Address Here </h5>
-            </label>
-            <div class="search-bar ">
-              <input type="search" id="mySearch" name="q" placeholder="Search the site..."
-                aria-label="Search through site content">
-            </div>
-            <div class="btn black right">
-              Find Food
-            </div>
-        </div>
-        </form>
-      </div>
-    </section>
-    <!-- Uber Parallax start Here-->
-    <Section>
-      <div class="parallax-container">
-        <div class="parallax"><img src="./images/slider4.jpg"></div>
-      </div>
-      <!-- Uber Eat Services-->
-      <div class=" section white uber-eat-services">
-        <div class="uber-eat-services-items">
-          <img src="./images/feed_employees.svg" class="responsive-img ">
-          <h4> Feed Your Employees</h4>
-          <p>Create a Business Account</p>
-        </div>
-        <div class="uber-eat-services-items">
-          <img src="./images/restaurant_delivery.svg " class="responsive-img section">
-          <h4> Your Restaurant Delivery</h4>
-          <p>Add Your Restaurant</p>
-        </div>
-        <div class="uber-eat-services-items">
-          <img src="./images/deliver_with_uber_eats.svg" class="responsive-img ">
-          <h4> Delivery With Uber</h4>
-          <p>Sign Up For Delivery</p>
-        </div>
-      </div>
-      <div class="parallax-container">
-        <div class="parallax"><img src="./images/2parallax.jpg"></div>
-      </div>
-    </section>
-    <!-- On Demand Delivery Section Start Here-->
-    <section>
-      <h2 class="center-align"> Uber<span class="green-text">Eats</span></h2>
-      <div class="on-demand-delivery container section ">
-        <div class="row section">
-          <div class="col s12 m6 l6">
-            <div class="card">
-              <div class="card-image">
-                <img src="./images/biryani.jpg">
-                <span class="card-title grey lighten-4 black-text">
-                  Try Delicious Italia Pasta
-                </span>
-              </div>
-              <div class="card-content">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat nisi molestias, dolore labore
-                  doloribus est odit consectetur sit vero doloremque!</p>
-              </div>
-            </div>
-          </div>
-          <div class="col s12 m6 l6">
-            <div class="card">
-              <div class="card-image">
-                <img src="./images/mango.jfif">
-                <span class="card-title grey lighten-4 black-text">
-                  Free Delivious Food
-                </span>
-              </div>
-              <div class="card-content">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat nisi molestias, dolore labore
-                  doloribus est odit consectetur sit vero doloremque!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-      </div>
-    </section>
-    <!-- Aside starts Here-->
-    <aside>
-      <section>
-        <div class="side-contain black white-text center-align ">
-          <ul>
-            <li class=" section">
-              <a href="#"><i class="material-icons white-text medium">group</a></i>
-              <h6> About Us</h6>
-              <p>Discover how we came to be, what motivates us and how we create opportunities.
-                .</p>
-            </li>
-            <li>
-              <a href="#"><i class="material-icons white-text medium">home</a></i>
-              <h5> Global Citizenship</h5>
-              <p>Find out how we are committed to having a positive impact on the cities in which we operate.</p>
-            </li>
-            <li>
-              <a href="#"><i class="material-icons white-text medium">chrome_reader_mode</a></i>
-              <h5> News Room</h5>
-              <p>View announcements about our latest releases, initiatives and partnerships.</p>
-            </li>
-          </ul>
-        </div>
-        </div>
-        </div>
-      </section>
-    </aside>
-    <!-- Aside article Section-->
-    <h3 class="center-align section"> Always and every where focused on safety</h3>
-    <div class="safety-is-important row">
-      <div class="col s12 m6  l4 safety-content">
-        <img src="./images/your-safety-is-important.jfif" class="responsive-img">
-        <h5> Your Safety is Important to us</h5>
-        <p>With every new safety feature and standard in our Community Guidelines, we are committed to providing a safe
-          environment
-          for our users.</p>
-        <a href="#">More Imformation</a>
-      </div>
-      <div class="col m6 s12 l4">
-        <img src="./images/we-move-more-than-10000-cities.jfif" class="responsive-img">
-        <h5> We move more than 10,000 cities</h5>
-        <p>With every new safety feature and standard in our Community Guidelines, we are committed to providing a safe
-          environment
-          for our users.</p>
-        <a href="#">More Imformation</a>
-      </div>
-    </div>
-  </main>
-  <!-- Footer Starts From Here-->
-  <footer>
-    <div class=" page-footer black">
-      <div class="row container">
-        <div class="col m4 l4 s12">
-          <h3 class="white-text">Uber</h3>
-        </div>
-      </div>
-      <div class="row container ">
-        <div class="col m3 l4 s12">
-          <h5><a href="#" class="footer-links blue-text">Company</a></h5>
-          <p><a href="#" class="footer-links white-text">About Us</a></p>
-          <p><a href="#" class="footer-links white-text">What We Offer</a></p>
-          <p><a href="#" class="footer-links white-text">News Room Inverstors</a></p>
-          <p><a href="#" class="footer-links white-text">Blog</a></p>
-        </div>
-        
-         <div class="col m3 l4 s12">
+          <div class="card-content container">
+            <h2>Get in the Drivers Seat and Get Paid </h2>
+              <p>Drive on the Platform with the largest network of active riders.
+              </p>
 
-          <h5><a href="#" class="footer-links blue-text">Products</a></h5>
-          <p><a href="#" class="footer-links white-text">To drive</a></p>
-          <p><a href="#" class="footer-links white-text">Uber for Business</a></p>
-          <p><a href="#" class="footer-links white-text">Food</a></p>
-          <p><a href="#" class="footer-links white-text">Uber Freight</a></p>
-        </div>
+              <div class="sign-up-to-drive btn black"><a href="#" class="white-text"> Sign up to Drive</a></div>
+              <p class="card-info"><a href="#" class="black-text underline" >Learn more about driving and delivery</a></p>
+               </div>
+                   </div>
+                   <div class="header-image">
+                    <img src ="./images/Earner_Home_bg_desktop2x.jfif" class="imgage">
+                  </div>
+       </section>
+ 
+  <!-- Skyline Section Start Here-->
 
-         <div class="col m3 l4 s12">
+    <div class="skyline-data">
+    <img src="./images/HP-U4B-NYC-bkg.png" >
+  <div class="skyline-content">
+    <h3 class=" ">Uber for Business</h3>
+<p> Transform the way of your company moves and feeds its people</p>
 
-          <h5><a href="#" class="footer-links blue-text">Global Citizenship</a></h5>
-          <p><a href="#" class="footer-links white-text">Safety</a></p>
-          <p><a href="#" class="footer-links white-text">Drive and Inclusion</a></p>
-
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright black white-text center-align">
-      <div class="container">
-        © 2021 Uber Technologies Incorporation
-
-      </div>
-    </div>
-  </footer>
-  <!-- fixed floating button -->
-  <div class="fixed-action-btn">
-    <a href="" class="btn-floating pulse blue"><i class="material-icons">add</i></a>
-    <ul>
-      <li><a href="" class="btn-floating  blue"> <i class="fab fa-facebook"></i>
-        </a></li>
-      <li><a href="" class="btn-floating blue"><i class="fab fa-instagram"></i></a></li>
-      <li><a href="" class="btn-floating blue"><i class="fab fa-twitter"></i></a></li>
-    </ul>
+<div class="btn black white-text large ">See How</div>
+  </div>
   </div>
 
+  <!-- Focused on Safety Section Start Here-->
+
+ 
+<section>
+  <h3 class="safety-heading"> Focused on safety, Where ever you go </h3>
+  <div class="focused-on-safety">
+    <div class="safety-content">
+    <ul>
+    <li class="section container">
+      <img src="./images/our-commitment-to-safety.jfif">
+      <h5>Our Commitment to your safety</h5>
+      <p>With every safety feature and every standard in our Community Guidelines, we're committed to helping to create a safe environment for our users.</p>
+     <a href ="#" class="black-text section">Read about our community guidelines</a>
+  <a href ="#" class="black-text right "> See all Safety Features</a>
+    </li>
+    </ul>
+    </div>
+    <div class="cities-in-motion">
+<ul>
+    <li class="section container">
+      <img src="./images/setting-10000-.jfif">
+      <h5>Setting 10,000+ cities in motion</h5>
+      <p>The app is available in thousands of cities worldwide, so you can request a ride even when you’re far from home.</p>
+      <a href ="#" class="black-text">See all cities</a></p>
+     </li>
+  </ul>
+</div>
+</div>
+</section>
+
+<!-- About us - news room and Global Citizenship Section Star Here-->
+
+<section>
+  <div class="About-us-news-global-wrapper">
+    <div class="items">
+    <ul>
+      <li class="section container">
+        <img src="./images/about us.svg">
+        <h5>About Us</h5>
+        <p>Find out how we started, what drives us, and how we’re igniting opportunity.</p>
+       <p> <a href ="#" class="black-text section">Learn More</a></p>
+        </li>
+  </ul>
+  </div>
+
+  <div class="items">
+    <ul>
+      <li class="section container">
+        <img src="./images/news room.svg">
+        <h5>Newsroom</h5>
+        <p>See announcements about our latest releases, initiatives, and partnerships.</p>
+        <p><a href ="#" class="black-text">learn More</a></p>
+       </li>
+  </ul>
+  </div>
+
+  <div class="items">
+    <ul>
+      <li class="section container">
+        <img src="./images/global citizen.svg">
+        <h5>Global Citizenship</h5>
+        <p>Read about our commitment to making a positive impact in the cities we serve.</p>
+        <p><a href ="#" class="black-text">Learn More</a></p>
+       </li>
+  </ul>
+  </div>
+  </div>
+  </section>
+
+<!-- there more to love in app section start here-->
+<section class=" grey lighten-4">
+  <div class="app-section section ">
+    <h3 class="section"> There's more to love in the apps</h3>
+    <div class="app-section-wrapper">
+      <div class="app-section-items white">
+        <img src="./images/download the drive app.png">
+        <h5>Download the Driver App</h5>
+        <a href="#" class="black-text"> <i class="material-icons small">arrow_forward</i></a>
+      </div>
+
+      <div class="app-section-items white">
+        <img src="./images/download the uber app.png">
+        <h5>Download the Uber App</h5>
+       <a href="#" class="black-text"> <i class="material-icons small">arrow_forward</i></a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- sign up to drive section-->
+
+<section>
+  <div class="sign-up">
+    <div class="sign-up-wrapper">
+      <div class="sign-up-items">
+        <h3>Sign Up to Drive</h3>
+        <a href="#" class="black-text"> <i class="material-icons">arrow_forward</i></a>  
+      </div>
+
+      <div class="sign-up-items">
+        <h3>Sign Up to Ride</h3>
+        <a href="#" class="black-text"> <i class="material-icons bold">arrow_forward</i></a>  
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Footer Start Here-->
+
+<footer class="page-footer black ">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h4 class="white-text">Uber</h4>
+        <p class="grey-text text-lighten-4">Visit Help Center</p>
+        </div>
+    </div>
+
+  <div class="row">
+    <div class="col l4 s12 m3">
+      <h5 class="white-text">Company</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="#!">About Us</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Offering</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">News Room</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Blog</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Careers</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">AI</a></li>
+        </ul>
+      </div>
+
+      <div class="col l4 s12 m3">
+        <h5 class="white-text">Products</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Ride</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Drive</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Eat</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Uber for Business</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Uber Freight</a></li>
+            
+          </ul>
+        </div>
+
+        <div class="col l4 s12 m3">
+          <h5 class="white-text">Global Citizenship</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Safety</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Diversity and Inclusion</a></li>
+             
+            </ul>
+          </div>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="footer-copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col s4 m4 l4">
+          <a class="grey-text text-lighten-4 fab fa-facebook-square" href="#!"></a>
+          <a class="grey-text text-lighten-4 fab fa-twitter-square" href="#!"></a>
+          <a class="grey-text text-lighten-4 fab fa-youtube-square" href="#!"></a>
+          <a class="grey-text text-lighten-4 fab fa-linkedin" href="#!"></a>
+          <a class="grey-text text-lighten-4 fab fa-instagram" href="#!"></a>
+        </div>
+        <div class="col s4 m4 l4">
+          <a class="grey-text text-lighten-4" href="#!"><i class="material-icons">language</i>English</a>
+          <a class="grey-text text-lighten-4" href="#!"><i class="material-icons">location_on</i>Amsterdam</a>
+</div>
+       <div class="col s4 m4 l4">
+         <a href="#"><img src="./images/google play.svg"></a>
+         <a href="#"><img src="./images/app store.svg"></a>
+       </div>
+     
+    </div>
+  </div>
+</footer>
+</body>
+
+
+
+
+
+  
+
+ 
 
   <!-- Compiled and minified JavaScript -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -416,9 +336,11 @@
     });
 
     // mobile side nav
-    $(document).ready(function () {
-      $('.sidenav').sidenav();
-    });
+    $(document).ready(function(){
+  $('.sidenav').sidenav();
+	$('#mobile-demo').sidenav({ edge: 'right' });
+});
+
 
     // collapsable 
 
