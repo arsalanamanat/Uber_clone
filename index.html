@@ -83,46 +83,58 @@
 
   <!-- Header Card Section Start here-->
       <section>
-        <div class="card">
-            <div class="card-tabs section">
-            <ul class="tabs tabs-fixed-width  row">
-              <li class="tab col s4"><img src="./images/signal.svg"><a href="#rides" class=" black-text" onclick="image1()">Drive or Delivery</a></li>
-              <li class="tab col s4"><img src="./images/restaurant-outlined.svg"><a class="active  black-text" href="#meal" onclick="image2()">Eat</a></li>
-              <li class="tab col s4"><img src="./images/signal.svg"><a href="#delivery" class=" black-text" onclick="image3()">Ride</a></li>
-            </ul>
-          </div>
-          <div id="rides" class="card-content container">
-            <h2>Get in the Drivers Seat and Get Paid </h2>
-              <p>Drive on the Platform with the largest network of active riders.
+        
+  <div class="card">
+    <div class="card-tabs section">
+    <ul class="tabs tabs-fixed-width  row">
+      <li class="tab col s4 m4 l4"><img src="./images/signal.svg"><a href="#rides" class=" black-text" onclick="image1()">Drive or Delivery</a></li>
+      <li class="tab col s4 m4 l4"><img src="./images/restaurant-outlined.svg"><a class="active  black-text" href="#meal" onclick="image2()">Eat</a></li>
+      <li class="tab col s4"><img src="./images/signal.svg"><a href="#delivery" class=" black-text" onclick="image3()">Ride</a></li>
+    </ul>
+  </div>
+  <div id="rides" class="card-content container">
+    <h2>Get in the Drivers Seat and Get Paid </h2>
+      <p>Drive on the Platform with the largest network of active riders.
+      </p>
+      <div class="sign-up-to-drive btn black"><a href="#" class="white-text"> Sign up to Drive</a></div>
+      <p class="card-info"><a href="#rides" class="black-text underline" >Learn more about driving and delivery</a></p>
+       </div>
+
+       <div id="meal" class="card-content container">
+        <h2>Discover Delicious Eats </h2>
+          <p>Order Delivery from restaurants you love.
+          </p>
+          <div class="sign-up-to-drive btn black"><a href="#" class="white-text"> Order now</a>
+             </div> 
+             <a href="#rides" class="black-text underline card-info" >Own a restaurant? Partner with Uber Eats</a>
+              </div>
+
+           <div id="delivery" class="card-content container">
+            <h2>Request a ride now </h2>
+            
+               <input  type="text" id="location" name="pickup" placeholder="Enter the pick up location"><br><br>
+              <input type="text" id="destination" name="fname" placeholder="Enter Destination"><br><br>
+             
               </p>
-              <div class="sign-up-to-drive btn black"><a href="#" class="white-text"> Sign up to Drive</a></div>
-              <p class="card-info"><a href="#rides" class="black-text underline" >Learn more about driving and delivery</a></p>
+              <div class="sign-up-to-drive btn btn-large black "><a href="#" class="white-text">Request Now</a></div>
+              <div class="sign-up-to-drive btn btn-large white"><a href="#" class="black-text">Schedule for later</a></div>
+              
                </div>
+                 </div>
+                 
+                
+           
+           <div class="header-image" >
+            <img src ="./images/Earner_Home_bg_desktop2x.jfif" class="image" id="header-image-area">
+          </div>
+</section>
 
-               <div id="meal" class="card-content container">
-                <h2>Discover Delicious Eats </h2>
-                  <p>Order Delivery from restaurants you love.
-                  </p>
-                  <div class="sign-up-to-drive btn black"><a href="#" class="white-text"> Order now</a>
-                     </div> 
-                     <a href="#rides" class="black-text underline card-info" >Own a restaurant? Partner with Uber Eats</a>
-                      </div>
 
-                   <div id="delivery" class="card-content container">
-                    <h2>Request a ride now </h2>
-                      <p>Drive on the Platform with the largest network of active riders.
-                      </p>
-                      <div class="sign-up-to-drive btn black"><a href="#" class="white-text"> Sign up to Drive</a></div>
-                      <p class="card-info"><a href="#rides" class="black-text underline" >Learn more about driving and delivery</a></p>
-                       </div>
-                         
-                   </div>
-                   <div class="header-image" >
-                    <img src ="./images/Earner_Home_bg_desktop2x.jfif" class="image" id="header-image-area">
-                  </div>
-       </section>
 
-       
+
+</div>
+        
+        </div>
  
   <!-- Skyline Section Start Here-->
 
@@ -149,7 +161,7 @@
       <h5>Our Commitment to your safety</h5>
       <p>With every safety feature and every standard in our Community Guidelines, we're committed to helping to create a safe environment for our users.</p>
      <a href ="#" class="black-text section">Read about our community guidelines</a>
-  <a href ="#" class="black-text right "> See all Safety Features</a>
+ 
     </li>
     </ul>
     </div>
@@ -253,7 +265,7 @@
     </div>
 
   <div class="row">
-    <div class="col l4 s12 m3">
+    <div class="col l4 s12 m6">
       <h5 class="white-text">Company</h5>
         <ul>
           <li><a class="grey-text text-lighten-3" href="#!">About Us</a></li>
@@ -265,7 +277,7 @@
         </ul>
       </div>
 
-      <div class="col l4 s12 m3">
+      <div class="col l4 s12 m6">
         <h5 class="white-text">Products</h5>
           <ul>
             <li><a class="grey-text text-lighten-3" href="#!">Ride</a></li>
@@ -277,7 +289,7 @@
           </ul>
         </div>
 
-        <div class="col l4 s12 m3">
+        <div class="col l4 s12 m12">
           <h5 class="white-text">Global Citizenship</h5>
             <ul>
               <li><a class="grey-text text-lighten-3" href="#!">Safety</a></li>
@@ -293,18 +305,18 @@
   <div class="footer-copyright">
     <div class="container">
       <div class="row">
-        <div class="col s4 m4 l4">
+        <div class="col s4 m12 l4 social-icons">
           <a class="grey-text text-lighten-4 fab fa-facebook-square" href="#!"></a>
           <a class="grey-text text-lighten-4 fab fa-twitter-square" href="#!"></a>
           <a class="grey-text text-lighten-4 fab fa-youtube-square" href="#!"></a>
           <a class="grey-text text-lighten-4 fab fa-linkedin" href="#!"></a>
           <a class="grey-text text-lighten-4 fab fa-instagram" href="#!"></a>
         </div>
-        <div class="col s4 m4 l4">
+        <div class="col s4 m12 l4 footer-button">
           <a class="grey-text text-lighten-4" href="#!"><i class="material-icons">language</i>English</a>
           <a class="grey-text text-lighten-4" href="#!"><i class="material-icons">location_on</i>Amsterdam</a>
 </div>
-       <div class="col s4 m4 l4">
+       <div class="col s4 m12 l4">
          <a href="#"><img src="./images/google play.svg"></a>
          <a href="#"><img src="./images/app store.svg"></a>
        </div>
@@ -351,7 +363,7 @@
       $('.tabs').tabs();
     });
  
-// image change 
+// header image change on click 
 
 
 var img = document.getElementById("header-image-area");
@@ -363,14 +375,11 @@ function image2() {
 
   img.src='./images/Eats_Home_bg_desktop2x.png';
 
-  
 }
 
 function image3() {
 
   img.src='./images/Rider_Home_bg_desktop2x.jfif';
-
-  
 }
 
 
