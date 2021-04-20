@@ -59,17 +59,12 @@ h4 {
 /* Drop Down Starts Here */
 
 #dropdown1 {
-  width: 300px !important;
+  width: 400px !important;
   position: absolute;
+  padding: 20px;
 }
-
-.drop-down-menu {
-  background-color: red;
-}
-
-#dropdown1 a {
-  color: rgb(48, 47, 47);
-  font-size: 0.9rem;
+#dropdown1 li:hover {
+  padding: 10px;
 }
 
 /* Header Card Starts Here */
@@ -107,6 +102,11 @@ h4 {
   text-decoration: underline;
   text-underline-position: under;
 }
+
+#meal .card-info {
+  margin-left: 20px;
+}
+
 .header-image {
   line-height: 0px;
   margin: 0px;
