@@ -159,8 +159,6 @@ h4 {
 
 /* Focused on Safety Section */
 .safety-heading {
-  margin-left: 180px;
-  padding: 0px;
   font-weight: bold;
 }
 .focused-on-safety {
@@ -214,9 +212,6 @@ h4 {
 }
 
 /* there's more to love in app start here */
-.app-section h3 {
-  margin-left: 160px;
-}
 
 .app-section-wrapper {
   display: flex;
@@ -296,10 +291,6 @@ h4 {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
-  body {
-    background-color: pink;
-  }
-
   nav .brand-logo {
     left: 5%;
   }
@@ -362,7 +353,70 @@ h4 {
 
 /* Media Screen over 1024 px */
 
-@media only screen and (min-width: 1024px) {
-  body {
+@media only screen and (max-width: 600px) {
+  nav .brand-logo {
+    left: 5%;
+  }
+
+  .header-image {
+    margin-top: 400px;
+  }
+
+  .card {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 100%;
+  }
+
+  .focused-on-safety {
+    display: block;
+  }
+
+  .safety-content {
+    width: 100%;
+  }
+
+  .cities-in-motion {
+    width: 100%;
+  }
+
+  .About-us-news-global-wrapper {
+    display: block;
+  }
+
+  .items {
+    width: 100%;
+  }
+
+  .app-section-items {
+    width: 100%;
+  }
+
+  .app-section-items img {
+    width: 20%;
+  }
+
+  .app-section-items h5 {
+    margin-right: 20%;
+  }
+
+  .sign-up-items {
+    width: 100%;
+  }
+  .sign-up-items h3 {
+    font-size: 2rem;
+  }
+
+  .social-icons {
+    margin-bottom: 30px;
+  }
+
+  .footer-button {
+    margin-bottom: 30px;
+  }
+
+  .footer-copyright img {
+    width: 20%;
   }
 }
