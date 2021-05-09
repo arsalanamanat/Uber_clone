@@ -1,12 +1,5 @@
-* {
-  font-family: sans-serif;
-  margin: 0px;
-  padding: 0px;
-  font-size: 16px;
-}
-
 .container {
-  width: 90% !important;
+  width: 90%;
 }
 
 h3 {
@@ -22,13 +15,13 @@ h4 {
 
 /* Fixed Navigation desktop area Area Starts Here  */
 .brand-logo {
-  font-size: 1.8rem !important;
+  font-size: 1.8rem;
   margin: 0px 60px;
 }
 
 .navbar ul {
   margin-left: 70px;
-  font-size: 0.9rem !important;
+  font-size: 0.9rem;
 }
 
 .navbar ul a {
@@ -42,9 +35,9 @@ h4 {
 }
 
 .navbar i {
-  margin: 0px 10px !important;
-  font-size: 18px !important;
-  line-height: 65px !important;
+  margin: 0px 10px;
+  font-size: 18px;
+  line-height: 65px;
 }
 
 .signup {
@@ -58,13 +51,8 @@ h4 {
 
 /* Drop Down Starts Here */
 
-#dropdown1 {
-  width: 400px !important;
-  position: absolute;
-  padding: 20px;
-}
-#dropdown1 li:hover {
-  padding: 10px;
+.dropdown-content li {
+  padding-left: 20px;
 }
 
 /* Header Card Starts Here */
@@ -74,10 +62,6 @@ h4 {
   top: 150px;
   left: 150px;
   width: 600px;
-}
-
-.col .row {
-  margin: 0px !important;
 }
 
 .tabs {
@@ -90,11 +74,11 @@ h4 {
   margin-top: 10px;
   max-width: 50%;
 }
-#meal {
+.meal {
   height: 300px;
 }
 
-#meal .sign-up-to-drive {
+.meal .sign-up-to-drive {
   margin-top: 20px;
 }
 
@@ -110,7 +94,7 @@ h4 {
   text-underline-position: under;
 }
 
-#meal .card-info {
+.meal .card-info {
   margin-left: 20px;
 }
 
@@ -137,7 +121,7 @@ h4 {
 
 .skyline-data {
   margin: 0px;
-  line-height: 0px !important;
+  line-height: 0px;
   position: relative;
 }
 
@@ -163,7 +147,7 @@ h4 {
 }
 .focused-on-safety {
   display: flex;
-  flex-wrap: flex;
+  flex-wrap: wrap;
   width: 80%;
   margin: 0 auto;
 }
